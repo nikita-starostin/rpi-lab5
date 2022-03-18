@@ -4,12 +4,26 @@
   flex-wrap: wrap;
 
   .news-item {
-    width: 20%;
+    margin-top: 12px;
+    width: 100%;
     padding: 4px;
   }
 
   .news-title {
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+    line-height: 1.53;
+    margin-bottom: 10px;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  .news-description {
+    font-size: 15px;
+    color: rgb(41, 41, 41);
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 0px;
   }
 
 }

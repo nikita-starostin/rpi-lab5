@@ -24,7 +24,7 @@ export default function App() {
         </section>
         <section className="news">
             <div className="news-items">
-                {news.map(({title, author, publishedAt, url}) => {
+                {news.map(({title, author, publishedAt, content, url}) => {
                     return <div className="news-item">
                         <div className="news-title">{title}</div>
                         <div className="news-author">Published by {author} at {publishedAt}</div>
