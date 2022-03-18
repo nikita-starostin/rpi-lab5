@@ -1,0 +1,16 @@
+.news-items {
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  .news-item {
+    width: 20%;
+    padding: 4px;
+  }
+
+  .news-title {
+    font-weight: bold;
+  }
+
+}
+
